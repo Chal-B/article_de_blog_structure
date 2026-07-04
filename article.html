@@ -1,0 +1,329 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="10 astuces de développement web pour les débutants — Article de blog par MALONGA Saint Chalbhery">
+  <meta name="author" content="MALONGA Saint Chalbhery">
+  <title>10 astuces de développement web — Blog Tech Congo</title>
+</head>
+<body>
+
+  <!-- En-tête du site avec navigation -->
+  <header>
+    <h1>Blog Tech Congo</h1>
+    <nav aria-label="Navigation principale">
+      <ul>
+        <li><a href="#article">Article</a></li>
+        <li><a href="#commentaires">Commentaires</a></li>
+        <li><a href="#articles-recents">Articles récents</a></li>
+        <li><a href="#categories">Catégories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenu principal -->
+  <main>
+
+    <article id="article" aria-labelledby="article-title">
+
+      <!-- En-tête de l'article -->
+      <header>
+        <h2 id="article-title">10 astuces de développement web pour les débutants</h2>
+        <p>
+          Par <strong>MALONGA Saint Chalbhery</strong> —
+          <time datetime="2026-06-15">15 juin 2026</time>
+        </p>
+        <p>
+          Catégorie :
+          <a href="#" rel="category tag">Développement web</a>
+        </p>
+        <p>
+          Tags :
+          <a href="#" rel="tag">HTML</a>,
+          <a href="#" rel="tag">CSS</a>,
+          <a href="#" rel="tag">JavaScript</a>,
+          <a href="#" rel="tag">Débutant</a>
+        </p>
+      </header>
+
+      <!-- Corps de l'article -->
+      <section id="contenu-article" aria-labelledby="astuce-1">
+        <p>
+          Commencer en développement web peut sembler intimidant, surtout quand on débute
+          sans expérience préalable. Pourtant, avec les bonnes habitudes dès le départ,
+          on peut progresser rapidement. Voici dix astuces que j'aurais aimé connaître
+          quand j'ai commencé mon parcours à Brazzaville.
+        </p>
+
+        <figure>
+          <img
+            src="images/developpeur-web.jpg"
+            alt="Développeur travaillant sur plusieurs écrans avec du code HTML et CSS"
+            width="600"
+            height="300">
+          <figcaption>
+            Un bon environnement de travail facilite l'apprentissage du développement web.
+          </figcaption>
+        </figure>
+
+        <h3 id="astuce-1">1. Maîtrisez le HTML avant tout</h3>
+        <p>
+          Le HTML est le squelette de chaque page web. Avant de vous lancer dans le CSS
+          ou JavaScript, assurez-vous de comprendre la structure sémantique : utiliser
+          <code>header</code>, <code>main</code>, <code>article</code> et <code>footer</code>
+          plutôt que des <code>div</code> partout.
+        </p>
+
+        <blockquote cite="https://developer.mozilla.org/fr/">
+          <p>
+            « La sémantique HTML consiste à utiliser le balisage HTML pour renforcer
+            le sens du contenu plutôt que pour définir son apparence. »
+          </p>
+          <footer>— <cite>MDN Web Docs</cite></footer>
+        </blockquote>
+
+        <h3>2. Validez votre code régulièrement</h3>
+        <p>
+          Utilisez le validateur W3C pour vérifier que votre HTML est correct.
+          Un code valide est plus facile à maintenir et plus accessible.
+        </p>
+
+        <h3>3. Apprenez les DevTools du navigateur</h3>
+        <p>
+          Les outils de développement intégrés à Chrome ou Firefox sont indispensables
+          pour inspecter le DOM, déboguer le CSS et analyser les performances.
+        </p>
+
+        <figure>
+          <img
+            src="images/devtools.jpg"
+            alt="Capture d'écran stylisée des DevTools du navigateur montrant l'inspecteur HTML"
+            width="600"
+            height="250">
+          <figcaption>
+            Les DevTools permettent d'inspecter et modifier le HTML en temps réel.
+          </figcaption>
+        </figure>
+
+        <h3>4. Pratiquez tous les jours</h3>
+        <p>
+          Même 30 minutes par jour valent mieux qu'une session de 5 heures le week-end.
+          La régularité construit la mémoire musculaire et la confiance.
+        </p>
+
+        <h3>5. Versionnez avec Git dès le début</h3>
+        <p>
+          Initialisez un dépôt Git pour chaque projet, même petit. GitHub devient
+          votre portfolio et votre historique d'apprentissage.
+        </p>
+
+        <!-- Tableau de comparaison des langages web -->
+        <h3>Tableau comparatif des technologies front-end</h3>
+        <table>
+          <caption>Temps d'apprentissage estimé pour chaque technologie</caption>
+          <thead>
+            <tr>
+              <th scope="col">Technologie</th>
+              <th scope="col">Rôle</th>
+              <th scope="col">Difficulté</th>
+              <th scope="col">Durée estimée</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML5</td>
+              <td>Structure du contenu</td>
+              <td>Facile</td>
+              <td>2 à 4 semaines</td>
+            </tr>
+            <tr>
+              <td>CSS3</td>
+              <td>Style et mise en page</td>
+              <td>Moyenne</td>
+              <td>1 à 3 mois</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Interactivité</td>
+              <td>Moyenne à difficile</td>
+              <td>3 à 6 mois</td>
+            </tr>
+            <tr>
+              <td>Git</td>
+              <td>Versionnement</td>
+              <td>Facile</td>
+              <td>1 à 2 semaines</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>6. Lisez le code des autres</h3>
+        <p>
+          Explorez des projets open source sur GitHub. C'est l'une des meilleures
+          façons d'apprendre les bonnes pratiques et les conventions de nommage.
+        </p>
+
+        <h3>7. Pensez accessibilité dès le départ</h3>
+        <p>
+          Ajoutez des attributs <code>alt</code> aux images, des <code>label</code>
+          aux formulaires et utilisez des contrastes de couleurs suffisants.
+          L'accessibilité profite à tous les utilisateurs.
+        </p>
+
+        <h3>8. Construisez des projets réels</h3>
+        <p>
+          Les tutoriels seuls ne suffisent pas. Créez une page de profil, un blog,
+          un menu de restaurant — des projets concrets qui restent dans votre portfolio.
+        </p>
+
+        <h3>9. Rejoignez une communauté</h3>
+        <p>
+          Les communautés tech congolaises et africaines sur Discord, WhatsApp ou
+          lors de meetups locaux offrent soutien, retours et opportunités.
+        </p>
+
+        <h3>10. Soyez patient avec vous-même</h3>
+        <p>
+          Chaque développeur expérimenté a été débutant un jour. Les erreurs font
+          partie du processus d'apprentissage. Célébrez chaque petite victoire !
+        </p>
+      </section>
+
+      <!-- Pied de l'article -->
+      <footer>
+        <p>
+          Publié le <time datetime="2026-06-15">15 juin 2026</time> dans la catégorie
+          <a href="#" rel="category tag">Développement web</a>.
+        </p>
+      </footer>
+
+      <!-- Section commentaires -->
+      <section id="commentaires" aria-labelledby="titre-commentaires">
+        <h3 id="titre-commentaires">Commentaires (3)</h3>
+
+        <ol>
+          <li>
+            <article aria-labelledby="commentaire-marie">
+              <header>
+                <h4 id="commentaire-marie"><cite>Marie Kimbembe</cite></h4>
+                <p><time datetime="2026-06-16">16 juin 2026</time></p>
+              </header>
+              <p>
+                Excellent article ! Le conseil sur la validation W3C m'a beaucoup aidée
+                lors de mon premier projet à l'Akieni Academy.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article aria-labelledby="commentaire-patrick">
+              <header>
+                <h4 id="commentaire-patrick"><cite>Patrick Nzuzi</cite></h4>
+                <p><time datetime="2026-06-17">17 juin 2026</time></p>
+              </header>
+              <p>
+                Je confirme pour Git : j'ai perdu du code avant d'apprendre à versionner.
+                Maintenant je ne code plus sans Git !
+              </p>
+            </article>
+          </li>
+          <li>
+            <article aria-labelledby="commentaire-sarah">
+              <header>
+                <h4 id="commentaire-sarah"><cite>Sarah Mpassi</cite></h4>
+                <p><time datetime="2026-06-18">18 juin 2026</time></p>
+              </header>
+              <p>
+                Le tableau comparatif est très utile pour planifier mon apprentissage.
+                Merci pour ce contenu de qualité !
+              </p>
+            </article>
+          </li>
+        </ol>
+
+        <!-- Formulaire d'ajout de commentaire -->
+        <section aria-labelledby="titre-formulaire-commentaire">
+          <h4 id="titre-formulaire-commentaire">Laisser un commentaire</h4>
+          <form action="#" method="post">
+            <p>
+              <label for="commentaire-nom">Nom :</label><br>
+              <input type="text" id="commentaire-nom" name="nom" required autocomplete="name">
+            </p>
+            <p>
+              <label for="commentaire-email">E-mail :</label><br>
+              <input type="email" id="commentaire-email" name="email" required autocomplete="email">
+            </p>
+            <p>
+              <label for="commentaire-site">Site web (optionnel) :</label><br>
+              <input type="url" id="commentaire-site" name="site" placeholder="https://">
+            </p>
+            <p>
+              <label for="commentaire-texte">Votre commentaire :</label><br>
+              <textarea id="commentaire-texte" name="commentaire" rows="6" required></textarea>
+            </p>
+            <p>
+              <input type="checkbox" id="notification" name="notification" value="oui">
+              <label for="notification">M'avertir des nouvelles réponses par e-mail</label>
+            </p>
+            <p>
+              <button type="submit">Publier le commentaire</button>
+            </p>
+          </form>
+        </section>
+      </section>
+
+    </article>
+
+    <!-- Barre latérale avec articles récents -->
+    <aside id="articles-recents" aria-labelledby="titre-sidebar">
+      <h2 id="titre-sidebar">Articles récents</h2>
+      <nav aria-label="Articles récents">
+        <ul>
+          <li>
+            <a href="#">Pourquoi apprendre à coder en 2026 ?</a>
+            <time datetime="2026-06-10">10 juin 2026</time>
+          </li>
+          <li>
+            <a href="#">Mon parcours tech personnel</a>
+            <time datetime="2026-06-05">5 juin 2026</time>
+          </li>
+          <li>
+            <a href="#">Introduction à Git et GitHub</a>
+            <time datetime="2026-05-28">28 mai 2026</time>
+          </li>
+          <li>
+            <a href="#">Les balises HTML5 essentielles</a>
+            <time datetime="2026-05-20">20 mai 2026</time>
+          </li>
+          <li>
+            <a href="#">Créer son premier portfolio en ligne</a>
+            <time datetime="2026-05-15">15 mai 2026</time>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="categories" aria-labelledby="titre-categories">
+        <h3 id="titre-categories">Catégories</h3>
+        <nav aria-label="Catégories du blog">
+          <ul>
+            <li><a href="#">Développement web (12)</a></li>
+            <li><a href="#">Tutoriels (8)</a></li>
+            <li><a href="#">Carrière (5)</a></li>
+            <li><a href="#">Communauté (3)</a></li>
+          </ul>
+        </nav>
+      </section>
+    </aside>
+
+  </main>
+
+  <!-- Pied de page du site -->
+  <footer>
+    <p>&copy; 2026 Blog Tech Congo — MALONGA Saint Chalbhery</p>
+    <address>
+      <a href="mailto:saintmlg@icloud.com">saintmlg@icloud.com</a>
+    </address>
+  </footer>
+
+</body>
+</html>
